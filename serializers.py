@@ -28,4 +28,5 @@ class ComputadoraSerializable(serializers.ModelSerializer):
         fields =(
             'marca',
             'precio'
+            'codigo'
         )

@@ -14,3 +14,4 @@ class Autos(models.Model):
 class Computadoras(models.Model):
     marca = models.CharField(max_length= 200,help_text='Ingrese la marca de la computadora')
     precio = models.IntegerField(max_length=200,help_text='Ingrese el precio de la computadora')
+    codigo = models.IntegerField(max_length=200,help_text='Ingrese el codigo de la computadora')
